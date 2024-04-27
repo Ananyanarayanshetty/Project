@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <style>
+            input{
+    padding:6px;
+                border-radius: none;
+                background-color: black;
+                 border:none;
+                 color: aliceblue;
+               border-bottom: 1px solid rgb(0, 187, 255);
+               width:100%;
+        
+         
+  }
+        </style>
+        <meta http-equiv="Content-Type" star="viewport" content="text/html; charset=UTF-8">
+        <title>loginpage</title>
+        <link rel="stylesheet" href="loginstyles.css"> 
+    
+    </head>
+
+    <body>
+        
+        <div class="login-container">
+            <h2 style="text-align:center;">LOGIN</h2><br>
+        <form id="login-form" method="POST" action="login.php"><!--form-->
+            <div class ="input-field">
+        
+        <label >Email</label><br>
+        <input type="email"  name="email" id="email" required>   
+        </div>
+        <div class ="input-field">                
+            <label>Password</label><br>
+            <input type="password" name="password" id="password" required> <br><br>
+            </div>
+            <div class ="input-fields">  
+            Not yet Registered?  <a href="registration.php">register</a>  
+            </div>
+        
+        <button type = "submit" class="login-btn" name="update">Login</button>
+    </form>
+ </body>
+</html>
